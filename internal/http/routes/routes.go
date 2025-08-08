@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/BrunoPolaski/projects-template/internal/infra/thirdparty/logger"
+	"github.com/Missing-Minimus/projects-template/internal/infra/thirdparty/logger"
 )
 
 func InitRoutes(s *http.ServeMux) {

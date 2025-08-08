@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/BrunoPolaski/projects-template/internal/infra/thirdparty/logger"
+	"github.com/Missing-Minimus/projects-template/internal/infra/thirdparty/logger"
 )
 
 func LogMiddleware(next http.Handler) http.Handler {

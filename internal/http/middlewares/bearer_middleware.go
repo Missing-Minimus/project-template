@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/BrunoPolaski/go-rest-err/rest_err"
-	internal_jwt "github.com/BrunoPolaski/projects-template/internal/infra/thirdparty/jwt"
-	"github.com/BrunoPolaski/projects-template/internal/infra/thirdparty/logger"
+	internal_jwt "github.com/Missing-Minimus/projects-template/internal/infra/thirdparty/jwt"
+	"github.com/Missing-Minimus/projects-template/internal/infra/thirdparty/logger"
 	"github.com/golang-jwt/jwt/v5"
 )
 

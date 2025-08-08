@@ -1,4 +1,4 @@
-module github.com/BrunoPolaski/projects-template
+module github.com/Missing-Minimus/projects-template
 
 go 1.24.2
 
