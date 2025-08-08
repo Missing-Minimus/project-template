@@ -1,0 +1,18 @@
+README.md
+*.log
+docker-compose.yml
+Dockerfile
+
+# ignore aws-sdk
+node_modules/aws-sdk/*
+
+.env.example
+.git/*
+__tests__/*
+docker/*
+docs/*
+logs/*
+db/*
+url_service_db/*
+volume/*
+.github

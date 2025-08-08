@@ -1,0 +1,21 @@
+service: api-projects-template
+
+provider:
+  name: aws
+  runtime: provided.al2
+  region: sa-east-1
+  stage: dev
+
+package:
+  patterns:
+    - '!./**'
+    - ./bootstrap
+    - ./.env
+
+functions:
+  backend:
+    handler: ./bootstrap
+    memorySize: 128
+    timeout: 5
+    events:
+      - httpApi: '*'

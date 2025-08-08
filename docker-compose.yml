@@ -1,0 +1,17 @@
+services:
+  service-1:
+    image: postgres:latest
+    environment:
+      POSTGRES_ROOT_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DATABASE: ${DB_NAME}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./service-1-db:/var/lib/mysql
+    networks:
+      - test-network
+
+networks:
+  test-network:
+    driver: bridge
