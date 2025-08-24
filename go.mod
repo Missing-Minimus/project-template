@@ -5,6 +5,7 @@ go 1.24.2
 require (
 	github.com/BrunoPolaski/go-rest-err v0.0.0-20250604233227-3ec7d1747ff2
 	github.com/golang-jwt/jwt/v5 v5.3.0
+	github.com/google/uuid v1.6.0
 	github.com/joho/godotenv v1.5.1
 	go.uber.org/zap v1.27.0
 	gorm.io/driver/postgres v1.6.0

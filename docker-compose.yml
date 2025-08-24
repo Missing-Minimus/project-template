@@ -1,5 +1,5 @@
 services:
-  service-1:
+  postgres:
     image: postgres:latest
     environment:
       POSTGRES_ROOT_PASSWORD: ${DB_PASSWORD}
